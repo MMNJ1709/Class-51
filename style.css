@@ -1,0 +1,38 @@
+h1{
+    background-color:orange;
+    color:darkred;
+    text-align:center;
+}
+body{
+    background-image: url("back.jpg");
+    background-size: cover;
+}
+p{
+    text-align: center;
+    color:yellow
+}
+h2{
+    text-align: center;
+    color:orange;
+}
+.menu{
+    background-color:yellow;
+    display:flex;
+    justify-content:flex-end
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    background-color:blue ;
+}
+.grid{
+    display: flex;
+    gap: 120px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
